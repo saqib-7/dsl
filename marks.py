@@ -72,7 +72,7 @@ def main():
         elif (optn == 4):
             high_freq()
         elif (optn == 5):
-            print("\n\n## END OF CODE\n\n")
+            print("\n\nExiting\n\n")
             quit()
         else:
             print("\n\nPlease choose a valid option (1-5)\n\n")
