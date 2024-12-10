@@ -2,7 +2,7 @@ def add(matrix_a , matrix_b):
     result = [];
     for i in range(len(matrix_a)):
         row = []
-        for j in range(len(matrix_a)):
+        for j in range(len(matrix_b)):
             element = matrix_a[i][j] + matrix_b[i][j]
             row.append(element)
         result.append(row)
@@ -54,7 +54,7 @@ def matrix():
     return result;
 
 matrix_a = matrix();
-#matrix_b = matrix();
-#add(matrix_a,matrix_b)
-#mul(matrix_a,matrix_b)
+matrix_b = matrix();
+add(matrix_a,matrix_b)
+mul(matrix_a,matrix_b)
 transpose(matrix_a)
