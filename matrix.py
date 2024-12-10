@@ -48,7 +48,7 @@ def matrix():
     for i in range(rows):
         temp = []
         for j in range(columns):
-            element = int(input("Enter the element at "))
+            element = int(input(f"Enter the element at {i+1} {j+1}: "))
             temp.append(element)
         result.append(temp)
     return result;
